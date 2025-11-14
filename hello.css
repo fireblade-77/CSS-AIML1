@@ -1,0 +1,16 @@
+div{
+    border: solid black;
+    padding: 10px;
+
+}
+h1{
+    background-color: aqua;
+    font: bold;
+}
+p{
+    background-color: greenyellow;
+}
+span{
+    font-size: large bold
+    ;
+}

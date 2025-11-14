@@ -1,0 +1,15 @@
+.container{
+    border: black solid 2px;
+    display: flex;
+    padding: 30px;
+    background-color: red;
+    height: 200px;
+    width: 300px;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+}
+.item{
+    border: 1px solid blue;
+    height: 100px;
+    width: 100px;
+}

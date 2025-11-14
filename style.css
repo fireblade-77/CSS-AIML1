@@ -1,0 +1,45 @@
+/* p{
+color: red; background-color: beige;
+text-align: center;
+}
+.para{
+    color: navy; background-color:lightgrey;
+}
+#jk{
+    font-size: 30px; 
+}
+a{
+    text-align: right;
+} */
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: skyblue;
+    padding: 10px;
+    margin: 100px black;
+    border: darkblue dotted;
+} */
+div{
+    font-size: 30px;
+    background-color: lightgrey;
+    
+}
+.container{
+   padding: 100px;
+}
+#one{
+    border: dotted 50px black;
+    margin: 80px;
+}
+#two{
+    border: solid navy;
+    margin: 40px;
+}
+#three{
+    border: double 25px red;
+    margin: 20px;
+}
+#four{
+    border: dotted green;
+    margin: 10px;
+}

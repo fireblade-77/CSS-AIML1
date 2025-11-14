@@ -1,0 +1,10 @@
+div{
+    border: solid black 20px;
+}
+p{
+    background-color: yellow;
+    border: 30px solid blue;
+    margin-left: 20px;
+    text-align: center;
+    align-content: center;
+}
