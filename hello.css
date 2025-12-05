@@ -4,13 +4,12 @@ div{
 
 }
 h1{
-    background-color: aqua;
+    background-color: purple;
     font: bold;
 }
 p{
     background-color: greenyellow;
 }
 span{
-    font-size: large bold
-    ;
+    font-size: large bold;
 }
