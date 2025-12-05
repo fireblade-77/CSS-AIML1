@@ -1,0 +1,46 @@
+.container{
+    height: 500px;
+    width: 1000px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    /* fr: means fraction. it splits evenly. now if i dont want to repeat writing fr again and again, use the repeat function.  */
+    /* grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer"; */
+    justify-items: center;
+    align-items: center;
+    /* place-content is a shortcut for both of the above align and justify items  */
+    justify-content: space-around;
+    gap: 10px;
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+/* grid-template-rows/columns  */
+
+/* .item1{
+    grid-area: header;
+}
+
+.item2{
+    grid-area: main;
+}
+
+.item3{
+    grid-area: sidebar;
+}
+
+.item4{
+    grid-area: footer;
+} */
+ .item-a {
+    grid-column: 1/2;
+ }
